@@ -22,13 +22,13 @@ DivMMC controller for ZX Spectrum computers.
 * ОС: Полная совместимость с ESXDOS (версии 0.8.9 и выше)(загрузка файлов .TAP, .TRD, .SCL, .Z80).
   
   
-[iBOM](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Schematics/DivMMC\_L2.html) [Схема](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Schematics/DivMMC\_L2.pdf) [Gerber](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Gerber/DivMMC\_L2\_Gerber.zip)
+[iBOM](Schematics/DivMMC\_L2.html) [Схема](Schematics/DivMMC\_L2.pdf) [Gerber](Gerber/DivMMC\_L2\_Gerber.zip)
   
-![](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Photos/1.png)
+![](Photos/1.png)
   
-![](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Photos/2.png)
+![](Photos/2.png)
   
-![](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Photos/DivMMC-L2.jpg)
+![](Photos/DivMMC-L2.jpg)
   
 ## Подключение
   
@@ -40,9 +40,9 @@ DivMMC controller for ZX Spectrum computers.
   
 Для работы контроллера требуется прошитая микросхема ПЗУ с операционной системой esxDOS.
   
-&#x20;   Важно: В данном проекте используется модифицированная версия прошивки, адаптированная под схемотехнику AlexEkb и особенности шины «Ленинград-2». Необходимый файл прошивки находится в папке /Firmware. [тут](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Firmware/ROM.bin)
+&#x20;   Важно: В данном проекте используется модифицированная версия прошивки, адаптированная под схемотехнику AlexEkb и особенности шины «Ленинград-2». Необходимый файл прошивки находится в папке /Firmware. [тут](Firmware/ROM.bin)
   
 &#x20;   Официальный сайт проекта esxDOS: esxdos.org (для ознакомления с командами и структурой системных папок на SD-карте).
   
-&#x20;   Карту SD отформатировать в FAT32 и распаковать на неё [архив](https://github.com/Alex-2-Graf/Leningrad2-DivMMC/blob/main/Firmware/esxdos\_disk.zip)
+&#x20;   Карту SD отформатировать в FAT32 и распаковать на неё [архив](Firmware/esxdos\_disk.zip)
 
