@@ -1,4 +1,6 @@
-# Leningrad2-DivMMC
+# Leningrad2-DivMMC  
+  
+> [English](README.en.md) | [Русский](README.md)  
   
 DivMMC controller for ZX Spectrum computers.
   
