@@ -15,8 +15,8 @@ The project is based on a proven circuit design by **AlexEkb** and is fully impl
 While the classic Beta Disk Interface (BDI/TR-DOS) was the gold standard of the 1990s, DivMMC is the definitive standard today for everyday retro-computing. 
 
 This specific controller layout is tailored for seamless, plug-and-play connection to my custom motherboard revisions:
-*   **Leningrad-2-48k**
-*   **Leningrad-2-128k-SRAM**
+*   [**Leningrad-2-48k**](https://github.com/Alex-2-Graf/LENINGRAD-2-48k)
+*   [**Leningrad-2-128k-SRAM**](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)
 
 On these motherboards, the expansion bus is already fully prepared. However, this DivMMC interface can also be connected to any other standard or third-party "Leningrad-2" board with minimal wiring adjustments.
 
@@ -30,9 +30,9 @@ On these motherboards, the expansion bus is already fully prepared. However, thi
 *   **OS Compatibility:** Fully compatible with ESXDOS (version 0.8.9 and newer) for running `.TAP`, `.TRD`, `.SCL`, and `.Z80` files.
 
 ### Hardware Project Files
-*   [Interactive BOM (iBOM)](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
-*   [Schematics](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
-*   [Gerber Files](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
+*   [Interactive BOM (iBOM)](Schematics/DivMMC\_L2.html)
+*   [Schematics](Schematics/DivMMC\_L2.pdf)
+*   [Gerber Files](Gerber/DivMMC\_L2\_Gerber.zip)
 
 ---
 
@@ -48,9 +48,9 @@ The controller plugs into the standard expansion system bus. All essential contr
 
 To run this controller, you must flash an EPROM chip with the ESXDOS system firmware.
 
-*   ⚠️ **Important:** This specific hardware layout uses a **modified firmware version**, which has been adapted to match AlexEkb's hardware architecture and the specific bus timings of the "Leningrad-2". The required ready-to-flash binary can be found inside the [/Firmware](https://github.com/Alex-2-Graf/Leningrad2-DivMMC) folder of this repository.
+*   ⚠️ **Important:** This specific hardware layout uses a **modified firmware version**, which has been adapted to match AlexEkb's hardware architecture and the specific bus timings of the "Leningrad-2". The required ready-to-flash binary can be found inside the [/Firmware](Firmware/ROM.bin) folder of this repository.
 *   **Official Website:** You can visit the official esxDOS project page at [esxdos.org](http://esxdos.org) to explore the system command list, features, and the required root directory structure for the SD card.
 
 ### SD Card Preparation
 1. Format your SD card using the **FAT32** file system.
-2. Unpack the system files archive (found in the firmware folder) directly into the root directory of the SD card.
+2. Unpack the system files [archive](Firmware/esxdos\_disk.zip) (found in the firmware folder) directly into the root directory of the SD card.
